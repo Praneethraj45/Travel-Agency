@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Bungee+Tint&display=swap');
+
+body{
+    margin:0px;
+    font-family: "Baskerville SC, system-ui";
+}
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+   display:flex; 
+   justify-content: space-between;
+   list-style-type: none;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+.icon_area{
+    margin-top:20px;
+    display:flex;
+    align-items: center;
+    gap:10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu_area{
+    margin-right: 10px;
+}
+li{
+    padding: 5px;
+    border-radius:2px;
+    transnform:scale(1.1);
+    transition: transform 0.5s, background-color 0.5s ;
+}
+li:hover{
+    transform:scale(1.1);
+    background-color: rgb(127, 212, 255);
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.main_content{
+    background-image: url('123.jpg');
+    max-width: 1500px;
+    height: 610px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transnform:scale(1.1);
+    transition: transform 0.5s;
+    border-bottom:7px solid black;
+    border-top:7px solid black;
+    border-left: 5px solid black;
+     border-right: 5px solid black;
+     border: inset 7px black;
+     text-shadow: 3px 3px 5px  rgb(18, 6, 241);
+     box-shadow: 2px 2px 7px rgb(0, 85, 255);
+}
+.main_heading{
+    font-family: "Bungee Tint",system-ui;
+    text-shadow: 3px 3px 3px  rgb(0, 204, 255);
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top:20px;
+    justify-content:space-evenly;
+    cursor: pointer;
+}
+
+.services_heading{
+    text-align: center;
+}
+
+.raj1.jpg,.raju2.jpg,.raju3.jpg,.card_img1,.card_img2,.card_img3{
+    max-width: 400px;
+    border:1px solid black;
+    text-align: center;
+    border-radius: 40px;
+    flex-flow: column;
+}
+.about_us{
+    border-radius: 25px;
+    border: 5px,solid black;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+p::first-letter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+p::first-line{
+    color:blue;
+}
+p::selection{
+    color: violet;
+    background-color:green;
+}
+.side_img{
+    max-width: 300px;
+}
+.side_text{
+    max-width: 500px;
+    text-align: justify;
+}
+.g1,.g2,.g3,.g4,.g5,.g6{
+    max-width: 400px;
+    cursor: pointer;
+    transition: transform 1s;
+    justify-content: center;
+    margin-top: 80px;
+    border-radius: 15px;
+}
+.g1:hover,.g2:hover,.g3:hover,.g4:hover,.g5:hover,.g6:hover{
+    transform:scale(1.1);
+}
+
+.gallery_text{
+    position:absolute;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+.fotter{
+    text-align: center;
+    background-color: rgb(72, 7, 7);
+    color: white;
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+}
+
+
